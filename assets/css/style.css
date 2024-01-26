@@ -2,11 +2,31 @@
     padding: 0;
     margin: 0;
     color: slategrey;
+    box-sizing: border-box;
+}
+
+/* color themes: 
+#27172f dark purple
+#8385a5 gray
+#313d53 dark blue
+black <-- black duh
+*/
+
+/* hidden class */
+.hidden {
+    visibility: hidden;
+}
+
+/* body */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 /* header */
 header {
-    background-color: #321E3C;
+    background-color: #27172f;
     height: 3rem;
     width: 100%;
 }
@@ -27,7 +47,7 @@ header ul {
     margin-top: 10px;
     display: flex;
     list-style: none;
-    background-color: black;
+    background-color: #231c28;
 }
 
 header ul li {
@@ -36,5 +56,13 @@ header ul li {
 
 /* main */
 main {
+    display: flex;
     margin-top: 1.5rem;
+    flex: 1 0 auto;
+}
+
+/* footer */
+footer ul{
+    display: flex;
+    justify-content: space-evenly;
 }
