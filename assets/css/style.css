@@ -6,18 +6,35 @@
 
 /* header */
 header {
-    display: flex;
     background-color: #321E3C;
+    height: 3rem;
+    width: 100%;
+}
+
+nav {
+    position: relative
 }
 
 header h1 {
     position: relative;
     top: 0.5rem;
     left: 0.5rem;
+    width: 180px;
+    min-width: 180px;
 }
 
 header ul {
+    margin-top: 10px;
     display: flex;
     list-style: none;
-    flex-direction: column;
+    background-color: black;
+}
+
+header ul li {
+    padding: 2px 0 2px 5px;
+}
+
+/* main */
+main {
+    margin-top: 1.5rem;
 }
