@@ -67,6 +67,12 @@ main {
     width: 100%;
 }
 
+div {
+    margin-left: 2rem;
+    height: 13rem;
+    width: 13rem;
+}
+
 /* content boxing */
 .content-box {
     display: flex;
@@ -95,7 +101,13 @@ main {
 }
 
 /* guide content page */
+.guide-text {
 
+}
+
+.image {
+
+}
 
 /* main hero image and overlay and rocket*/
 #hero {
