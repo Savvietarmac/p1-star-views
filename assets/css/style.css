@@ -64,10 +64,12 @@ main {
     flex-direction: column;
     flex: 1 0 auto;
     background-color: black;
+    width: 100%;
 }
 
 /* content boxing */
 .content-box {
+    display: flex;
     column-count: 1;
 }
 
@@ -76,15 +78,24 @@ main {
     margin-top: 15rem;
     background-color: #27172f;
     height: 19rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .index-content div {
+    display: flex;
+    flex-direction: column;
     margin-bottom: 1.2rem;
 }
 
 #index-div {
+    height: 5rem;
     padding: 0.5rem 0.5rem 0 0.5rem;
 }
+
+/* guide content page */
+
 
 /* main hero image and overlay and rocket*/
 #hero {
@@ -103,15 +114,17 @@ main {
 }
 
 #rocket {
+    position: absolute;
     width: 100%;
     opacity: 0.6;
-    height: 12rem;
+    height: 10.6rem;
     margin-top: 2.5rem;
+    border: none;
 }
 
 /* footer */
 footer {
-    background-color: black;
+    background-color: rgb(44, 43, 43);
     height: 3rem;
     width: 100%;
 }
@@ -126,4 +139,9 @@ footer ul{
 footer ul li {
     margin-top: 0.25rem;
     font-size: 2.3rem;
+}
+
+@media screen and (min-width: 768px) {
+
+
 }
