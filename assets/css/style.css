@@ -62,8 +62,16 @@ main {
     background-color: white;
 }
 
-.flex-section {
-    display: inline-block;
+/* content boxing */
+.content-box {
+    column-count: 1;
+}
+
+/* index-content */
+#index-content {
+    margin-top: 15rem;
+    background-color: #27172f;
+    
 }
 
 /* main hero image and overlay */
