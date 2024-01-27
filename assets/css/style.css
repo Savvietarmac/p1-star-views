@@ -27,7 +27,7 @@ body {
 /* header */
 header {
     background-color: #27172f;
-    height: 3rem;
+    height: 4rem;
     width: 100%;
 }
 
@@ -39,8 +39,8 @@ header h1 {
     position: relative;
     top: 0.5rem;
     left: 0.5rem;
-    width: 180px;
     min-width: 180px;
+    font-size: 2.5rem;
 }
 
 header ul {
@@ -67,6 +67,7 @@ main {
 footer {
     background-color: black;
     height: 3rem;
+    width: 100%;
 }
 
 footer ul{
