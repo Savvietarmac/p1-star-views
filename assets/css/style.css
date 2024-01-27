@@ -12,9 +12,13 @@
 black <-- black duh
 */
 
-/* hidden class */
+/* utility class */
 .hidden {
     visibility: hidden;
+}
+
+.none {
+    display: none;
 }
 
 /* body */
@@ -68,26 +72,40 @@ main {
 }
 
 /* index-content */
-#index-content {
+.index-content {
     margin-top: 15rem;
     background-color: #27172f;
-    
+    height: 17rem;
 }
 
-/* main hero image and overlay */
+.index-content div {
+    margin-bottom: 1.2rem;
+}
+
+#index-div {
+    padding: 0.5rem 0.5rem 0 0.5rem;
+}
+
+/* main hero image and overlay and rocket*/
 #hero {
     position: absolute;
     background: url("../images/pexels-alex-andrews-816608-edited.jpg") no-repeat center / cover;
     height: 15rem;
-    width: 100vw;
+    width: 100%;
 }
 
 .hero-overlay {
     position: absolute;
     height: 15rem;
-    width: 100vw;
+    width: 100%;
     opacity: 0.25;
     z-index: 3;
+}
+
+#rocket {
+    width: 100%;
+    opacity: 0.6;
+    height: 12rem;
 }
 
 /* footer */
