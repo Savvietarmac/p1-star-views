@@ -48,14 +48,15 @@ header h1 {
 
 header ul {
     padding: 0.5rem;
-    margin-top: 0.7rem;
+    margin-top: 0.5rem;
     display: flex;
     list-style: none;
     background-color: black;
 }
 
 header ul li {
-    padding: 0 0.4rem;
+    font-size: 70%;
+    padding: 0 8px;
 }
 
 /* main */
@@ -67,36 +68,23 @@ main {
     width: 100%;
 }
 
-div {
-    height: 13rem;
-    width: 13rem;
-}
-
 /* content boxing */
 .content-box {
     display: flex;
+    flex-direction: column;
     column-count: 1;
 }
 
 /* index-content */
 .index-content {
-    margin-top: 15rem;
+    margin-top: 18rem;
     background-color: #27172f;
-    height: 19rem;
+    height: 40vh;
     width: 100%;
-    display: flex;
-    flex-direction: column;
 }
 
-.index-content div {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 1.2rem;
-}
-
-#index-div {
-    height: 5rem;
-    padding: 0.5rem 0.5rem 0 0.5rem;
+#index-div{
+    padding: 0 0.5rem;
 }
 
 /* guide content page */
@@ -112,24 +100,23 @@ div {
 #hero {
     position: absolute;
     background: url("../images/pexels-alex-andrews-816608-edited.jpg") no-repeat center / cover;
-    height: 15rem;
+    height: 18rem;
     width: 100%;
 }
 
 .hero-overlay {
     position: absolute;
-    height: 15rem;
+    height: 18rem;
     width: 100%;
-    opacity: 0.25;
+    opacity: 0.2;
     z-index: 3;
 }
 
 #rocket {
-    position: absolute;
+    position: relative;
     width: 100%;
     opacity: 0.6;
-    height: 10.3rem;
-    margin-top: 2.5rem;
+    height: 210px;
     border: none;
 }
 
@@ -162,14 +149,4 @@ footer ul li {
             box-sizing: border-box;
             font-size: 110%;
         }
-
-    /* made index-content into row */
-    .index-content {
-        margin-top: 15rem;
-        background-color: #27172f;
-        height: 13rem;
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-    }
 }
