@@ -37,9 +37,30 @@
     </header>
 
     <main>
-        <h2>Take our survey!</h2>
-        <form>
-            
+        <form action="https://formdump.codeinstitute.net/" method="POST">
+            <legend id="mandatory-legend">How did you end up here?<br>
+                <label for="first-name">name</label>
+                <input id="first-name" name="first-name" class="" type="text" required>
+                <label for="lastname">Last name</label>
+                <input id="last-name" name="last-name" class="" type="text" required>
+                <label for="email-address">Email Address</label>
+                <input id="email-address" name="email-address" class="" type="email" required>
+                <label for="discovery-dlist">What made you intrested in stars?</label>
+                <input list="discovery" id="discovery-dlist" name="discovery" required/>
+                <datalist id="discovery">
+                    <option value="Hobbies"></option>
+                    <option value="Acquaintances"></option>
+                    <option value="Work"></option>
+                    <option value="Friends"></option>
+                    <option value="Fascination"></option>
+                    <option value="Other"></option>
+                </datalist>
+            </legend>
+            <legend id="optional-legend">We would apprechiate your feedback!
+                <textarea cols="30" rows="4" placeholder="Did you enjoy the guide?" name="feedback"></textarea>
+                <textarea cols="30" rows="4" placeholder="Would you like if something was added to the guide?" name="feedback-guide"></textarea>
+            </legend>
+            <input type="submit">
         </form>
     </main>
 
