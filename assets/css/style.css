@@ -83,7 +83,6 @@ main {
 .content-box {
     display: flex;
     flex-direction: column;
-    column-count: 1;
 }
 
 /* index-content */
@@ -100,14 +99,24 @@ main {
 
 /* guide content page */
 #guide-box {
-    
+    display: flex;
+    border: 1px red solid;
+    width: 100vw;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .guide-text {
-
+    border: white solid 1px;
+    width: 80vw;
+    height: 40vh;
+    margin: 5vh 0;
 }
 
 .image {
+    border: 1px solid blue;
+    width: 80vw;
+    height: 40vh;
 
 }
 
