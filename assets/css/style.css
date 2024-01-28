@@ -102,7 +102,7 @@ main {
     justify-content: center;
 }
 
-.guide-text {
+.text {
     border: white solid 1px;
     width: 100vw;
     height: 40vh;
@@ -162,7 +162,7 @@ footer ul li {
         justify-content: center;
     }
     
-    .guide-text {
+    .text {
         border: white solid 1px;
         width: 40vw;
         height: 40vh;
@@ -202,7 +202,7 @@ footer ul li {
         justify-content: center;
     }
     
-    .guide-text {
+    .text {
         border: white solid 1px;
         width: 30vw;
         height: 30vh;
