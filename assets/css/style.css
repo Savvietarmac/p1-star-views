@@ -40,9 +40,13 @@ nav {
     position: relative
 }
 
+.fa-hurricane {
+    color: black;
+    margin-right: 0.4rem;
+}
+
 #navigation ul li:hover {
     background-color: #27172f;
-    color: white;
     border-radius: 5px;
 }
 
@@ -68,6 +72,11 @@ header ul {
 header ul li {
     font-size: 0.9rem;
     padding: 0 8px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
 }
 
 /* main */
@@ -115,7 +124,6 @@ main {
     border: 1px solid blue;
     width: 80vw;
     height: 40vh;
-
 }
 
 /* main hero image*/
@@ -131,7 +139,6 @@ footer {
     background-color: rgb(44, 43, 43);
     height: 3rem;
     width: 100%;
-    z-index: 3;
 }
 
 footer ul{
@@ -146,11 +153,126 @@ footer ul li {
     font-size: 2.3rem;
 }
 
-/* small phones and larger */
-
 
 /* tablets and larger */
 @media screen and (min-width: 768px) {
+    /* made the content boxes be side by side */
+    /* changed margin */
+    .guide-box {
+        display: flex;
+        border: 1px red solid;
+        width: 100vw;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .guide-text {
+        border: white solid 1px;
+        width: 40vw;
+        height: 40vh;
+        margin: 5vh 20px;
+    }
+    
+    .image {
+        border: 1px solid blue;
+        width: 40vw;
+        height: 40vh;
+        margin: 5vh 20px;
+    }
 
+}
 
+/* laptop and larger */
+@media screen and (min-width: 1024px) {
+/* Changed height of content for larger screen */
+    /* Increased height of hero image and index margin for larger screens */
+    #hero {
+        position: absolute;
+        background: url("../images/pexels-alex-andrews-816608-edited.jpg") no-repeat center / cover;
+        height: 28rem;
+        width: 100%;
+    }
+
+    #index {
+        margin-top: 28rem;
+    }
+    
+
+    .guide-box {
+        display: flex;
+        border: 1px red solid;
+        width: 100vw;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .guide-text {
+        border: white solid 1px;
+        width: 40vw;
+        height: 30vh;
+        margin: 5vh 20px;
+    }
+    
+    .image {
+        border: 1px solid blue;
+        width: 40vw;
+        height: 30vh;
+        margin: 5vh 20px;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+    /* upped height of hero and margin for index */
+    #hero {
+        position: absolute;
+        background: url("../images/pexels-alex-andrews-816608-edited.jpg") no-repeat center / cover;
+        height: 60vh;
+        width: 100%;
+    }
+
+    #index {
+        margin-top: 60vh;
+    }
+
+    /* upped size for larger screens */
+    header {
+        background-color: #27172f;
+        width: 100%;
+    }
+    
+    nav {
+        position: relative
+    }
+    
+    #navigation ul li:hover {
+        background-color: #27172f;
+        color: white;
+        border-radius: 5px;
+    }
+    
+    header h1 {
+        position: relative;
+        top: 0.5rem;
+        left: 0.5rem;
+        min-width: 300px;
+        font-size: 3rem;
+        font-family: "Rubik Mono One", monospace;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    header ul {
+        padding: 0.5rem;
+        margin-top: 0.5rem;
+        display: flex;
+        list-style: none;
+        background-color: black;
+    }
+    
+    header ul li {
+        font-size: 2.4rem;
+        padding: 0 8px;
+    }
+    
 }
