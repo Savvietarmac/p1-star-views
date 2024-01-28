@@ -104,14 +104,14 @@ main {
 
 .guide-text {
     border: white solid 1px;
-    width: 80vw;
+    width: 100vw;
     height: 40vh;
     margin: 5vh 0;
 }
 
 .image {
     border: 1px solid blue;
-    width: 80vw;
+    width: 100vw;
     height: 40vh;
 }
 
@@ -166,14 +166,14 @@ footer ul li {
         border: white solid 1px;
         width: 40vw;
         height: 40vh;
-        margin: 5vh 20px;
+        margin: 5vh 2vw;
     }
     
     .image {
         border: 1px solid blue;
         width: 40vw;
         height: 40vh;
-        margin: 5vh 20px;
+        margin: 5vh 2vw;
     }
 
 }
@@ -204,16 +204,16 @@ footer ul li {
     
     .guide-text {
         border: white solid 1px;
-        width: 40vw;
+        width: 30vw;
         height: 30vh;
-        margin: 5vh 20px;
+        margin: 5vh 4vw;
     }
     
     .image {
         border: 1px solid blue;
-        width: 40vw;
+        width: 30vw;
         height: 30vh;
-        margin: 5vh 20px;
+        margin: 5vh 4vw;
     }
     /* refited height to match .image */
     #index-video {
