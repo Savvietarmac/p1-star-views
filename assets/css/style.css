@@ -66,7 +66,7 @@ header ul {
 }
 
 header ul li {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     padding: 0 8px;
 }
 
@@ -89,7 +89,13 @@ main {
     justify-content: center;
 }
 
-/* guide content page */
+/* Index content */
+#index {
+    margin-top: 18rem;
+}
+
+
+/* content page */
 .guide-box {
     display: flex;
     border: 1px red solid;
@@ -112,7 +118,7 @@ main {
 
 }
 
-/* main hero image and overlay and rocket*/
+/* main hero image*/
 #hero {
     position: absolute;
     background: url("../images/pexels-alex-andrews-816608-edited.jpg") no-repeat center / cover;
