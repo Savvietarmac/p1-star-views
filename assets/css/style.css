@@ -80,25 +80,17 @@ main {
 }
 
 /* content boxing */
+
 .content-box {
     display: flex;
-    flex-direction: column;
-}
-
-/* index-content */
-.index-content {
-    margin-top: 18rem;
-    background-color: #27172f;
-    height: 40vh;
-    width: 100%;
-}
-
-#index-div{
-    padding: 0 0.5rem;
+    border: 1px red solid;
+    width: 100vw;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 /* guide content page */
-#guide-box {
+.guide-box {
     display: flex;
     border: 1px red solid;
     width: 100vw;
