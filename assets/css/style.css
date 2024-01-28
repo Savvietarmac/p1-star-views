@@ -115,11 +115,23 @@ main {
     height: 40vh;
 }
 
+/* survey content */
+input {
+    position: absolute;
+    z-index: 3;
+}
+
 /* image  in index.html */
 #index-video {
     width: 100%;
     height: 40vh;
     object-fit: fill;
+}
+
+/* survey video background */
+#survey-video {
+    height: 100%;
+    width: 100%;
 }
 
 /* main hero image*/
