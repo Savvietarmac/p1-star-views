@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Star Views</title>
     <!-- meta tags -->
-    <meta name="description" content="Star Views, Guide to the stars, Star guide, All about stars, Intresting facts about stars, A space safari">
+    <meta name="description"
+        content="Star Views, Guide to the stars, Star guide, All about stars, Intresting facts about stars, A space safari">
     <meta name="keywords" content="Star views, Stars, Star, Space guide, Facts, Space safari, Intresting facts">
     <!-- meta tags -->
     <!-- favicon -->
@@ -21,13 +23,15 @@
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Trispace:wght@100..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Trispace:wght@100..800&display=swap"
+        rel="stylesheet">
     <!-- Google fonts -->
 </head>
+
 <body>
     <header>
         <h1><a href="index.html"><i class="fa-solid fa-hurricane"></i></a>Star Views</h1>
-        <nav id="navigation" >
+        <nav id="navigation">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="guide.html">Guide</a></li>
@@ -38,15 +42,16 @@
 
     <main>
         <form action="https://formdump.codeinstitute.net/" method="POST">
-            <legend id="mandatory-legend">How did you end up here?<br>
+            <fieldset>
+                <legend>How did you get intrested in stars?<br></legend>
                 <label for="first-name">name</label>
-                <input id="first-name" name="first-name" class="" type="text" required>
+                <input id="first-name" name="first-name" class="" type="text" required><br>
                 <label for="lastname">Last name</label>
-                <input id="last-name" name="last-name" class="" type="text" required>
+                <input id="last-name" name="last-name" class="" type="text" required><br>
                 <label for="email-address">Email Address</label>
-                <input id="email-address" name="email-address" class="" type="email" required>
-                <label for="discovery-dlist">What made you intrested in stars?</label>
-                <input list="discovery" id="discovery-dlist" name="discovery" required/>
+                <input id="email-address" name="email-address" class="" type="email" required><br>
+                <label for="discovery-dlist">Reasons</label>
+                <input list="discovery" id="discovery-dlist" name="discovery" required /><br>
                 <datalist id="discovery">
                     <option value="Hobbies"></option>
                     <option value="Acquaintances"></option>
@@ -55,12 +60,14 @@
                     <option value="Fascination"></option>
                     <option value="Other"></option>
                 </datalist>
-            </legend>
-            <legend id="optional-legend">We would apprechiate your feedback!
+            </fieldset><br><br>
+            <fieldset>
+                <legend>We would apprechiate your feedback!<br></legend>
                 <textarea cols="30" rows="4" placeholder="Did you enjoy the guide?" name="feedback"></textarea>
-                <textarea cols="30" rows="4" placeholder="Would you like if something was added to the guide?" name="feedback-guide"></textarea>
-            </legend>
-            <input type="submit">
+                <textarea cols="30" rows="4" placeholder="Would you like if something was added to the guide?"
+                    name="feedback-guide"></textarea>
+            </fieldset>
+            <input id="submit-input" type="submit">
         </form>
         <video id="survey-video" src="assets/video/galaxy.mp4" autoplay muted loop></video>
     </main>
@@ -68,11 +75,13 @@
     <footer>
         <ul id="footer-links">
             <li><a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
-            <li><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-square-facebook"></i></a></li>
+            <li><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+            </li>
         </ul>
     </footer>
-    
+
     <!-- Font awesome icons -->
     <script src="https://kit.fontawesome.com/74f63daefb.js" crossorigin="anonymous"></script>
 </body>
+
 </html>

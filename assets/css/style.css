@@ -7,13 +7,6 @@
     font-weight: 200;
 }
 
-/* color themes: 
-#27172f dark purple
-#8385a5 gray
-#313d53 dark blue
-black <-- black duh
-*/
-
 /* utility class */
 .hidden {
     visibility: hidden;
@@ -117,12 +110,59 @@ main {
 
 /* survey content */
 input {
-    position: absolute;
+    position: relative;
     z-index: 3;
+    width: 9rem;
+    display: block;
+    margin-top: 1.2rem;
+    margin-left: 0.4rem;
+}
+
+#submit-input {
+    width: 5rem;
+    color: white;
+    background-color: rgb(44, 43, 43);
+    margin-left: 1rem;
+}
+
+fieldset {
+    border: none;
+}
+
+label {
+    position: relative;
+    font-size: 1rem;
+    padding: 5px;
+    z-index: 3;
+    color: white;
 }
 
 form {
-    
+    width: 100vw;
+    height: 100vh;
+}
+
+textarea {
+    display: block;
+    position: relative;
+    z-index: 3;
+    margin-top: 10px;
+}
+
+legend {
+    position: relative;
+    z-index: 3;
+    color: white;
+    margin: 1rem 0;
+}
+
+/* survey video background */
+#survey-video {
+    position: absolute;
+    height: 86%;
+    width: 100%;
+    opacity: 0.3;
+    object-fit: fill;
 }
 
 /* image  in index.html */
@@ -130,13 +170,6 @@ form {
     width: 100%;
     height: 40vh;
     object-fit: fill;
-}
-
-/* survey video background */
-#survey-video {
-    height: 100%;
-    width: 100%;
-    opacity: 0.6;
 }
 
 /* main hero image*/
