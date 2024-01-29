@@ -98,14 +98,14 @@ main {
 .text {
     border: white solid 1px;
     width: 100vw;
-    height: 40vh;
+    height: 30vh;
     margin: 5vh 0;
 }
 
 .image {
     border: 1px solid blue;
     width: 100vw;
-    height: 40vh;
+    height: 30vh;
 }
 
 /* survey content */
@@ -115,7 +115,7 @@ input {
     width: 9rem;
     display: block;
     margin-top: 1.2rem;
-    margin-left: 0.4rem;
+    margin-left: 1vw;
 }
 
 #submit-input {
@@ -132,9 +132,10 @@ fieldset {
 label {
     position: relative;
     font-size: 1rem;
-    padding: 5px;
+    padding: 5px 0;
     z-index: 3;
     color: white;
+    margin-left: 1vw;
 }
 
 form {
@@ -147,13 +148,16 @@ textarea {
     position: relative;
     z-index: 3;
     margin-top: 10px;
+    height: 10vh;
+    width: 90vw;
+    margin-left: 1vw;
 }
 
 legend {
     position: relative;
     z-index: 3;
     color: white;
-    margin: 1rem 0;
+    margin: 1rem 1vw;
 }
 
 /* survey video background */
@@ -168,7 +172,7 @@ legend {
 /* image  in index.html */
 #index-video {
     width: 100%;
-    height: 40vh;
+    height: 30vh;
     object-fit: fill;
 }
 
@@ -226,6 +230,23 @@ footer ul li {
         margin: 5vh 2vw;
     }
 
+    #index-video {
+        width: 100%;
+        height: 40vh;
+        object-fit: fill;
+    }
+    
+    /* changed width of textarea*/
+    textarea {
+        display: block;
+        position: relative;
+        z-index: 3;
+        margin-top: 10px;
+        height: 10vh;
+        width: 40vw;
+        margin-left: 1vw;
+    }
+
 }
 
 /* laptop and larger */
@@ -265,6 +286,18 @@ footer ul li {
         height: 30vh;
         margin: 5vh 4vw;
     }
+
+    /* changed width of textarea*/
+    textarea {
+        display: block;
+        position: relative;
+        z-index: 3;
+        margin-top: 10px;
+        height: 10vh;
+        width: 30vw;
+        margin-left: 1vw;
+    }    
+
     /* refited height to match .image */
     #index-video {
         width: 100%;
@@ -327,4 +360,15 @@ footer ul li {
         padding: 0 8px;
     }
     
+        /* changed width and height of textarea*/
+        textarea {
+            display: block;
+            position: relative;
+            z-index: 3;
+            margin-top: 10px;
+            height: 5vh;
+            width: 10vw;
+            margin-left: 1vw;
+        }    
+
 }
