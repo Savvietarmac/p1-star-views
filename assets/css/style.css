@@ -83,10 +83,14 @@ main {
 
 h2, h3, h4 ,h5 {
     color: white;
+    font-weight: 300;
 }
 
-p {
+.text p {
     color: whitesmoke;
+    position: relative;
+    width: 100%;
+    display: block;
 }
 
 /* Index content */
@@ -110,10 +114,20 @@ p {
     margin: 5vh 0;
 }
 
-.image {
+.media {
     border: 1px solid blue;
     width: 100vw;
     height: 30vh;
+}
+
+/* Guide content */
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.gray-b {
+    background-color: rgb(44, 43, 43);
 }
 
 /* survey content */
@@ -231,7 +245,7 @@ footer ul li {
         margin: 5vh 2vw;
     }
     
-    .image {
+    .media {
         border: 1px solid blue;
         width: 40vw;
         height: 40vh;
@@ -288,7 +302,7 @@ footer ul li {
         margin: 5vh 4vw;
     }
     
-    .image {
+    .media {
         border: 1px solid blue;
         width: 30vw;
         height: 30vh;
