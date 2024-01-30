@@ -15,10 +15,10 @@ User Stories
  |  :---        | :---:                                     |
  |              |                                           |
  |1             |As a new user,                             |
- |              |I want to further my intrest in stars.                                           |
- |              |So that i can develop or further such an intrest.                                           |
- |              |                                           |
- |              |I know i am done when the user continues from the homepage to the guide.                                           |
+ |               I want to further my intrest in stars.     |    
+ |               So that i can develop or further such an intrest.|
+ |               I know i am done when the user continues from the homepage to the guide.|
+ |               I know i am done when the user continues from the homepage to the guide.|
  | ---          | ---                                       |
  |2             |                                           |
  |              |                                           |
