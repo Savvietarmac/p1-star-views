@@ -5,15 +5,26 @@ Users will discover new ideas about what a star can be and learn new things and 
 ** add https://ui.dev/amiresponsive?url=https://savvietarmac.github.io/p1-star-views/ image **
 
 User Stories
- | Story no. | Story                                   |
- |  :---     | :---:                                   |
- |           |                                         |
- |1           |As a new user,
+ | Story no.    | Story                                     |
+ |  :---        | :---:                                     |
+ |              |                                           |
+ |1             |As a new user,                             |
+ |              |I want to further my intrest in stars.                                           |
+ |              |So that i can develop or further such an intrest.                                           |
+ |              |                                           |
+ |              |I know i am done when the user continues from the homepage to the guide.                                           |
+ | ---          | ---                                       |
+ |2             |                                           |
+ |              |                                           |
+ |              |                                           |
+ |              |                                           |
+ |              |                                           |
+ As a new user,
 i want to further my intrest in stars.
-So that i can develop of further such an intrest. 
+So that i can develop or further such an intrest. 
 
 I know i am done when the user continues from the homepage to the guide.                                         |
- |2           |As a new user,
+ |2          |As a new user,
 i have chosen to go to the guide.
 So i can learn something intresting.
 
