@@ -1,10 +1,16 @@
 The Star View website is made for everyone who has an intrest in stars or would like to get intrested in the subject.
 
 Users will discover new ideas about what a star can be and learn new things and new theories to make the user  think.
+[Star Views](**)
 
 ** add https://ui.dev/amiresponsive?url=https://savvietarmac.github.io/p1-star-views/ image **
 
 User Stories
+| Syntax      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | And more      |
+
  | Story no.    | Story                                     |
  |  :---        | :---:                                     |
  |              |                                           |
@@ -39,13 +45,7 @@ I know i am done when new users learn something intresting from the guide.
  I have enjoyed the guide.
  So i want to share it with others.
  
- I know i am done when a user introduces a new user to the website.                                         |
- |           |                                         |
- |           |                                         |
- |           |                                         |
- |           |                                         |
-
- 
+ I know i am done when a user introduces a new user to the website.
 
 
 
