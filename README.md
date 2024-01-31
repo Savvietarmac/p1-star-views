@@ -2,7 +2,7 @@
 The Star View website is made for everyone who has an intrest in stars or would like to get intrested in the subject.
 
 Users will discover new ideas about what a star can be and learn new things and new theories to make the user think.
-[Star Views](https://savvietarmac.github.io/p1-star-views/survey.html)
+[Star Views](https://savvietarmac.github.io/p1-star-views)
 
 ![Ui Responsivenes](assets/readme/Ui-dev-responsivnes.p1.png)
 
@@ -48,6 +48,7 @@ Bellow are my early designs for the Star Views web project.
   - The website has a footer with links at the bottom in all pages.
   - The website has an icon in the top left that acts as an additional link to the index.
   - The website has been made responsive to diffrent screensizes.
+ ##### Header and Nav
  ![Header and nav](assets/readme/Header-nav.p1.png)
  ##### Footer
  ![Footer](assets/readme/footer.p1.png)
@@ -109,13 +110,16 @@ Bellow are my early designs for the Star Views web project.
 ### Accessiblity Testing
 
 Using lighthouse to rate the accesability of the webpage. Results are:
-
+##### Index
 ![Index](assets/readme/Index-page.p1.png)<br>
+##### Guide
 ![Guide](assets/readme/Guide-page.p1.png)<br>
+##### Survey
 ![Survey](assets/readme/Survey-page.p1.png)<br>
+##### Thank you
 ![Thank-you](assets/readme/Thank-you-page.p1.png)<br>
 
-### Manual Testing'
+### Manual Testing
  - I have tested this website on diffrent web browsers.
  - I have tested that the website is responsive to diffrent screen sizes. It works in multiple diffrent screen sizes.
  - I have tested the links in the header, footer and the survey page. they all work
@@ -144,7 +148,7 @@ Using lighthouse to rate the accesability of the webpage. Results are:
  - On larger screens the right side of the page had a horizontal slider that created unwanted whitespace.
  - Tried fixing by standardizing usage of 100% instead of 100vw in css, did not solve issue but helped in guide.html by making the gray background not be wider than wanted.
  - Finally fixed issue using overflow-x: hidden; in body in CSS which solved the issue.
- - Later changed to oveflow: auto; instead as overflow hidden caused other issues
+ - Later changed to oveflow: auto; instead as overflow hidden caused other issues.
 
 #### Sideways Screens Bug
  - On mobile the webpage suffered sizing related issues when a smaler screen turned sideways.
