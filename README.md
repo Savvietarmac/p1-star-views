@@ -63,11 +63,11 @@ Bellow are my early designs for the Star Views webpage.
 
 ### validator Testing
  - HTML
-  - Index: 
-  - Guide:
-  - Survey:
+  - Index: No errors were found using the official W3C validator<br>https://validator.w3.org/nu/?doc=https%3A%2F%2Fsavvietarmac.github.io%2Fp1-star-views%2Findex.html
+  - Guide: No errors were found using the official W3C validator<br>https://validator.w3.org/nu/?doc=https%3A%2F%2Fsavvietarmac.github.io%2Fp1-star-views%2Fguide.html
+  - Survey: No errors were found using the official W3C validator<br>
  - CSS 
-  - No errors were found using the jigsaw validator<br>http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fsavvietarmac.github.io%2Fp1-star-views%2F&usermedium=all&vextwarning=&warning=1
+  - No errors were found using the official jigsaw validator<br>http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fsavvietarmac.github.io%2Fp1-star-views%2F&usermedium=all&vextwarning=&warning=1
 
 ### User Stories Testing
 
