@@ -224,7 +224,6 @@ footer ul li {
     font-size: 2.3rem;
 }
 
-
 /* tablets and larger */
 @media screen and (min-width: 768px) {
     /* made the content boxes be side by side */
@@ -264,7 +263,6 @@ footer ul li {
         width: 40%;
         margin-left: 1vw;
     }
-
 }
 
 /* laptop and larger */
@@ -282,6 +280,14 @@ footer ul li {
         margin-top: 28rem;
     }
     
+    input {
+        position: relative;
+        z-index: 3;
+        width: 14rem;
+        display: block;
+        margin-top: 1.2rem;
+        margin-left: 1vw;
+    }
 
     .content-box {
         display: flex;
@@ -319,7 +325,6 @@ footer ul li {
         height: 30vh;
         object-fit: fill;
     }
-
 }
 
 @media screen and (min-width: 1200px) {
@@ -385,5 +390,4 @@ footer ul li {
         width: 15vw;
         margin-left: 1vw;
     }    
-
 }

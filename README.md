@@ -73,11 +73,11 @@ Bellow are my early designs for the Star Views webpage.
 
  |Story no.|Story|
  | --------| --------|
- [1]As a new user, <br>I want to further my intrest in stars. <br>So that i can develop or further such an intrest.<br><br>I know i am done when the user can navigate from the homepage to the guide.
- [2]As a new user, <br>I want to go to the guide.<br>So i can learn something intresting.<br><br>I know i am done when new users has content to consume and learn from in the guide.
- [3]As a new user, <br>I want to continue to the survey.<br>So i can give feedback on the website and what i want to see added.<br><br>i know i am done when a new user can navigete to the survey page and submit it.
- **[4]As a new user, <br><br><br><br>
- [5]As a user,<br>I want to be able to share the guide.<br>So that the users can share intrests with others.<br><br>I know i am done when a user introduces a new user to the website.
+ |[1]|As a new user, <br>I want to further my intrest in stars. <br>So that i can develop or further such an intrest.<br><br>I know i am done when the user can navigate from the homepage to the guide.|
+ |[2]|As a new user, <br>I want to go to the guide.<br>So i can learn something intresting.<br><br>I know i am done when new users has content to consume and learn from in the guide.|
+ |[3]|As a new user, <br>I want to continue to the survey.<br>So i can give feedback on the website and what i want to see added.<br><br>i know i am done when a new user can navigete to the survey page and submit it.|
+ **|[4]|As a new user, <br><br><br><br>
+ |[5]|As a user,<br>I want to be able to share the guide.<br>So that the users can share intrests with others.<br><br>I know i am done when a user introduces a new user to the website.|
 
 ### Accessiblity Testing
 
@@ -123,7 +123,7 @@ Using lighthouse to rate the accesability of the webpage
  - Hero image made by Alex Andrews ![Pexels](https://www.pexels.com/)
  - Used ![Pixlr](https://pixlr.com/)  for sizing images
  - Favicons taken from ![Favicon](https://favicon.io/favicon-converter/)
- 
+
 
 favicon from https://favicon.io/favicon-converter/ fav icon
 
