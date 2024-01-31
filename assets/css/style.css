@@ -140,16 +140,38 @@ input {
 }
 
 #thank-you {
-    position: absolute;
+    appearance: auto;
+    text-rendering: auto;
+    position: relative;
     width: 6rem;
     height: 1.5rem;
     color: white;
+    background-color: rgb(44, 43, 43);
     margin-left: 1vw;
     margin-top: 1.2rem;
-    z-index: 4;
+    z-index: 3;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    cursor: default;
+    padding-block: 1px;
+    padding-inline: 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-image: initial;
+    text-decoration: none;
+    border-color: black;
 }
 
+/* Hidden and none displayed so it can link to thank-you page instead */
 #submit {
+    visibility: hidden;
+    display: none;
     position: relative;
     width: 6rem;
     height: 1.5rem;
