@@ -226,6 +226,47 @@ footer ul li {
     font-size: 2.3rem;
 }
 
+/* for phones that are turned sideways */
+@media screen and (min-width: 653px) {
+    /* made the content boxes be side by side */
+    /* changed margin */
+    .content-box {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .text {
+        width: 40%;
+        height: 40vh;
+        margin: 5vh 2vw;
+    }
+    
+    .media {
+        width: 40vw;
+        height: 40vh;
+        margin: 5vh 2vw;
+    }
+
+    #index-video {
+        width: 100%;
+        height: 40vh;
+        object-fit: fill;
+    }
+    
+    /* changed width of textarea*/
+    textarea {
+        display: block;
+        position: relative;
+        z-index: 3;
+        margin-top: 10px;
+        height: 10vh;
+        width: 40%;
+        margin-left: 1vw;
+    }
+}
+
 /* tablets and larger */
 @media screen and (min-width: 768px) {
     /* made the content boxes be side by side */
