@@ -168,6 +168,27 @@ input {
     border-color: black;
 }
 
+#check-div {
+    width: 100%;
+    height: 30px;
+}
+
+#check-label {
+    right: 0%;
+    float: left;
+}
+
+#check {
+    right: 0%;
+    float: left;
+    position: relative;
+    z-index: 3;
+    width: auto;
+    display: block;
+    margin-top: 0.5rem;
+    margin-left: 1vw;
+}
+
 /* Hidden and none displayed so it can link to thank-you page instead */
 #submit {
     visibility: hidden;

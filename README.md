@@ -8,13 +8,13 @@ Users will discover new ideas about what a star can be and learn new things and 
 
 ## User Stories
 
- |Story no.|Story|
- | --------| --------|
- [1]As a new user, <br>I want to further my intrest in stars. <br>So that i can develop or further such an intrest.<br><br>I know i am done when the user can navigate from the homepage to the guide.
- [2]As a new user, <br>I want to go to the guide.<br>So i can learn something intresting.<br><br>I know i am done when new users has content to consume and learn from in the guide.
- [3]As a new user, <br>I want to continue to the survey.<br>So i can give feedback on the website and what i want to see added.<br><br>i know i am done when a new user can navigete to the survey page and submit it.
- **[4]As a new user, <br><br><br><br>
- [5]As a user,<br>I want to be able to share the guide.<br>So that the users can share intrests with others.<br><br>I know i am done when a user introduces a new user to the website.
+ |Story no. |Story|
+ | -------- | -------- |
+ |1|As a new user, <br>I want to further my intrest in stars. <br>So that i can develop or further such an intrest.<br><br>I know i am done when the user can navigate from the homepage to the guide.|
+ |2|As a new user, <br>I want to go to the guide.<br>So i can learn something intresting.<br><br>I know i am done when new users has content to consume and learn from in the guide.|
+ |3|As a new user, <br>I want to continue to the survey.<br>So i can give feedback on the website and what i want to see added.<br><br>i know i am done when a new user can navigete to the survey page and submit it.|
+ |4|As a user,<br>I want to be able learn if the guide has been updated<br>So the user can be incentivized to return.<br><br>I know i am done when there is an option to accept updates by mail|
+ |5|As a user,<br>I want to be able to share the guide.<br>So that the users can share intrests with others.<br><br>I know i am done when a user introduces a new user to the website.|
 
  ***
 
@@ -65,19 +65,19 @@ Bellow are my early designs for the Star Views webpage.
  - HTML
   - Index: No errors were found using the official W3C validator<br>https://validator.w3.org/nu/?doc=https%3A%2F%2Fsavvietarmac.github.io%2Fp1-star-views%2Findex.html
   - Guide: No errors were found using the official W3C validator<br>https://validator.w3.org/nu/?doc=https%3A%2F%2Fsavvietarmac.github.io%2Fp1-star-views%2Fguide.html
-  - Survey: No errors were found using the official W3C validator<br>
+  - Survey: No errors were found using the official W3C validator<br>https://validator.w3.org/nu/?doc=https%3A%2F%2Fsavvietarmac.github.io%2Fp1-star-views%2Fsurvey.html
  - CSS 
   - No errors were found using the official jigsaw validator<br>http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fsavvietarmac.github.io%2Fp1-star-views%2F&usermedium=all&vextwarning=&warning=1
 
 ### User Stories Testing
 
- |Story no.|Story|
- | --------| --------|
- |[1]|As a new user, <br>I want to further my intrest in stars. <br>So that i can develop or further such an intrest.<br><br>I know i am done when the user can navigate from the homepage to the guide.|
- |[2]|As a new user, <br>I want to go to the guide.<br>So i can learn something intresting.<br><br>I know i am done when new users has content to consume and learn from in the guide.|
- |[3]|As a new user, <br>I want to continue to the survey.<br>So i can give feedback on the website and what i want to see added.<br><br>i know i am done when a new user can navigete to the survey page and submit it.|
- **|[4]|As a new user, <br><br><br><br>
- |[5]|As a user,<br>I want to be able to share the guide.<br>So that the users can share intrests with others.<br><br>I know i am done when a user introduces a new user to the website.|
+ |Story no. |Story|
+ | -------- | -------- |
+ |1|As a new user, <br>I want to further my intrest in stars. <br>So that i can develop or further such an intrest.<br><br>I know i am done when the user can navigate from the homepage to the guide.|
+ |2|As a new user, <br>I want to go to the guide.<br>So i can learn something intresting.<br><br>I know i am done when new users has content to consume and learn from in the guide.|
+ |3|As a new user, <br>I want to continue to the survey.<br>So i can give feedback on the website and what i want to see added.<br><br>i know i am done when a new user can navigete to the survey page and submit it.|
+ |4|As a user,<br>I want to be able learn if the guide has been updated<br>So the user can be incentivized to return.<br><br>I know i am done when there is an option to accept updates by mail|
+ |5|As a user,<br>I want to be able to share the guide.<br>So that the users can share intrests with others.<br><br>I know i am done when a user introduces a new user to the website.|
 
 ### Accessiblity Testing
 
