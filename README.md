@@ -67,7 +67,7 @@ Bellow are my early designs for the Star Views webpage.
   - Guide:
   - Survey:
  - CSS 
-  - 
+  - No errors were found using the jigsaw validator<br>http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fsavvietarmac.github.io%2Fp1-star-views%2F&usermedium=all&vextwarning=&warning=1
 
 ### User Stories Testing
 
