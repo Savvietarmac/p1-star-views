@@ -192,7 +192,8 @@ input {
 
 /* Hidden and none displayed so it can link to thank-you page instead */
 #submit {
-
+    visibility: hidden;
+    display: none;
     position: relative;
     width: 6rem;
     height: 1.5rem;
