@@ -137,6 +137,7 @@ input {
     display: block;
     margin-top: 1.2rem;
     margin-left: 1vw;
+    color: rgb(44, 43, 43);
 }
 
 /* Link to thank you instead of submit */
