@@ -2,9 +2,9 @@
 The Star View website is made for everyone who has an intrest in stars or would like to get intrested in the subject.
 
 Users will discover new ideas about what a star can be and learn new things and new theories to make the user think.
-[Star Views](**)
+[Star Views](https://savvietarmac.github.io/p1-star-views/survey.html)
 
-** add https://ui.dev/amiresponsive?url=https://savvietarmac.github.io/p1-star-views/ image **
+![Ui Responsivenes](assets/readme/Ui-dev-responsivnes.p1.png)
 
 ## User Stories
 
@@ -14,7 +14,6 @@ Users will discover new ideas about what a star can be and learn new things and 
  |2|As a new user, <br>I want to go to the guide.<br>So i can learn something intresting.<br><br>I know i am done when new users has content to consume and learn from in the guide.|
  |3|As a new user, <br>I want to continue to the survey.<br>So i can give feedback on the website and what i want to see added.<br><br>i know i am done when a new user can navigete to the survey page and submit it.|
  |4|As a user,<br>I want to be able learn if the guide has been updated<br>So the user can be incentivized to return.<br><br>I know i am done when there is an option to accept updates by mail|
- |5|As a user,<br>I want to be able to share the guide.<br>So that the users can share intrests with others.<br><br>I know i am done when a user introduces a new user to the website.|
 
  ***
 
@@ -22,10 +21,16 @@ Users will discover new ideas about what a star can be and learn new things and 
 Bellow are my early designs for the Star Views webpage.
 
 ### Index Page
-![Index page wireframe](assets/images/Wireframe-index.jpeg)
+![Index page Wireframe wide](assets/readme/Wireframe-index-widescreen.p1.png)
+![Index page Wireframe phone](assets/readme/wireframe-index-phone.p1.png)
 
-### Survey & Guide Pages
-![Survey and Guide pages](assets/images/Wireframe-guide-survey.jpeg)
+### Guide Page
+![Guide page Wireframe wide](assets/readme/wireframe-guide-widescreen.p1.png)
+![Guide page Wireframe phone](assets/readme/wireframe-guide-phone.p1.png)
+
+### Survey Page
+![Survey page Wireframe wide](assets/readme/Wireframe-survey-widescreen.p1.png)
+![Survey page Wireframe phone](assets/readme/wireframe-survey-phone.p1.png)
 
 ***
 
@@ -33,80 +38,140 @@ Bellow are my early designs for the Star Views webpage.
 - __All pages__
  - The website has the name of the website in the header on all pages.
  - The website has links to the rest of the webpage at the top in the nav.
+ - The website also has an shows a purple background if you mouse over the nav links. 
  - The website has a footer with links at the bottom in all pages.
  - The website has an icon in the top left that acts as an additional link to the index.
  - The website has been made responsive to diffrent screensizes.
- ![Header and nav]()
- ![Footer](assets/images/)
+ ![Header and nav](assets/readme/Header-nav.p1.png)
+ ![Footer](assets/readme/footer.p1.png)
+
+- __Colors__ 
+ - Colors for the website ![Colors](assets/readme/Color-project.p1.png)
 
 - __Index__
  - The index page has an explenation as to the purpose of the webpage.
  - The index has a playable video.
  - The index page has a hero image.
-![Index page](assets/images/)**
+ ![Index page](assets/readme/Index-page-screen.p1.png)
 
  - __Guide__
   - The guide page has text to introduce a number of star related statments to intrest the user.
   - The guide has multiple Iframes from youtube with which the user can interact with.
   - The guide has alternating color-backgrounds to keep the viewers attention.
-  ![Guide page](assets/images/)
+  ![Guide page](assets/readme/Guide-page-screen.p1.png)
 
  - __Survey__
   - The survey page has a form for the user to fill concerning how they discovered the webpage.
   - The survey has multiple textareas for the user to give feedback on the webpage.
   - The survey pages input at the bottom submits the page and sends it.
   - The survey has a autoplay video in the background to make the website more intresting.
+ ![Survey page](assets/readme/Survey-page-screen.p1.png)
+
+- __Form Feedback__
+ - Using [Form Dump](https://formdump.codeinstitute.net/) the form looks like this when checked using the input. <br> ![Form dump results](assets/readme/Formdump%20page.p1.png)
+ - The form has a link instead for now as to keep the user on the page instead as i can not yet make my own form dump since i have not yes learned JavaScript.
+
+- __Thank you__
+ - The Thank You page keeps the user on the website as opposed to going to the formdump.
+ - The formdump submit button can be accessed by turning the visiblity and display of the button to visible.
+ ![Thank you](assets/readme/Thank-you-screen.p1.png)
 
 ***
 
 ## Testing
 
 ### validator Testing
+
  - HTML
   - Index: No errors were found using the official W3C validator<br>https://validator.w3.org/nu/?doc=https%3A%2F%2Fsavvietarmac.github.io%2Fp1-star-views%2Findex.html
   - Guide: No errors were found using the official W3C validator<br>https://validator.w3.org/nu/?doc=https%3A%2F%2Fsavvietarmac.github.io%2Fp1-star-views%2Fguide.html
   - Survey: No errors were found using the official W3C validator<br>https://validator.w3.org/nu/?doc=https%3A%2F%2Fsavvietarmac.github.io%2Fp1-star-views%2Fsurvey.html
+  - Thank-you: No errors were found using the official W3C validator<br>https://validator.w3.org/nu/?doc=https%3A%2F%2Fsavvietarmac.github.io%2Fp1-star-views%2Fthank-you.html
  - CSS 
-  - No errors were found using the official jigsaw validator<br>http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fsavvietarmac.github.io%2Fp1-star-views%2Fsurvey.html&usermedium=all&vextwarning=&warning=1
+  - No errors were found using the official jigsaw validator<br>http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fsavvietarmac.github.io%2Fp1-star-views%2Fthank-you.html&usermedium=all&vextwarning=&warning=1
+
 ### User Stories Testing
 
- |Story no. |Story|
- | -------- | -------- |
- |1|As a new user, <br>I want to further my intrest in stars. <br>So that i can develop or further such an intrest.<br><br>I know i am done when the user can navigate from the homepage to the guide.|
- |2|As a new user, <br>I want to go to the guide.<br>So i can learn something intresting.<br><br>I know i am done when new users has content to consume and learn from in the guide.|
- |3|As a new user, <br>I want to continue to the survey.<br>So i can give feedback on the website and what i want to see added.<br><br>i know i am done when a new user can navigete to the survey page and submit it.|
- |4|As a user,<br>I want to be able learn if the guide has been updated<br>So the user can be incentivized to return.<br><br>I know i am done when there is an option to accept updates by mail|
- |5|As a user,<br>I want to be able to share the guide.<br>So that the users can share intrests with others.<br><br>I know i am done when a user introduces a new user to the website.|
+ | Story no. | Result | Story/evidence |
+ | -------- | -------- | ---------- |
+ |1|Test Pass|As a new user, <br>I want to further my intrest in stars. <br>So that i can develop or further such an intrest.<br><br>I know i am done when the user can navigate from the homepage to the guide. <br>Evidence: Navigation links for the website.<br> ![Header and nav](assets/readme/Header-nav.p1.png) |
+ |2|Test Pass|As a new user, <br>I want to go to the guide.<br>So i can learn something intresting.<br><br>I know i am done when new users has content to consume and learn from in the guide. <br>Evidence: The guide is full of content to consume.<br> ![Guide page](assets/readme/Guide-page-screen.p1.png)|
+ |3|Test Pass|As a new user, <br>I want to continue to the survey.<br>So i can give feedback on the website and what i want to see added.<br><br>i know i am done when a new user can navigete to the survey page and submit it.<br>Evidence: A submit button exists that works, note: decided to make button a link instead of a submit to better the website.<br> ![Survey page](assets/readme/Survey-page-screen.p1.png)|
+ |4|Test Pass|As a user,<br>I want to be able learn if the guide has been updated<br>So the user can be incentivized to return.<br><br>I know i am done when there is an option to accept updates.<br> Evidence: There exists a checkbox in the survey for this exact purpose.<br> ![Survey page](assets/readme/Survey-page-screen.p1.png)| 
 
 ### Accessiblity Testing
 
-Using lighthouse to rate the accesability of the webpage
+Using lighthouse to rate the accesability of the webpage. Results are:
 
-![Index](assets/images/)
-![Guide]()
-![Survey]()
+![Index](assets/readme/Index-page.p1.png)
+![Guide](assets/readme/Guide-page.p1.png)
+![Survey](assets/readme/Survey-page.p1.png)
+![Thank-you](assets/readme/Thank-you-page.p1.png)
 
 ### Manual Testing'
- -
- -
- -
- -
- -
- -
+ - I have tested this website on diffrent web browsers.
+ - I have tested that the website is responsive to diffrent screen sizes. It works in multiple diffrent screen sizes.
+ - I have tested the links in the header, footer and the survey page. they all work
+ - I have tested the text and its fonts are readable and scroll where necessary.
+ - I have checked that the form sends the data to the correct place when submitted
+
+#### Desktop
+|chrome 121.0.6167.139|Firefox 122.0|
+|![Chrome](assets/readme/Google-chrome-widescreen.p1.png)|![Firefox](assets/readme/Fifrefox-widescreen.p1.png)|
+
+#### Tablet
+|chrome 121.0.6167.139|Firefox 122.0|
+|![Chrome](assets/readme/google-chrome-tablet.p1.png)|![Firefox](assets/readme/Firefox-tablet.p1.png)|
+
+#### Phone
+|chrome 121.0.6167.139|Firefox 122.0|
+|![Chrome](assets/readme/Google-chrome-phone.p1.png)|![Firefox](assets/readme/Firefox-mobile.p1.png)|
+
 
 ### Fixed Bugs
 
-#### Widescreen Whitespace
+#### Widescreen Whitespace Bug
  - On larger screens the right side of the page had a horizontal slider that created unwanted whitespace.
  - Tried fixing by standardizing usage of 100% instead of 100vw in css, did not solve issue but helped in guide.html by making the gray background not be wider than wanted.
  - Finally fixed issue using overflow-x: hidden; in body in CSS which solved the issue.
 
-#### Sideways Screens
+#### Sideways Screens Bug
  - On mobile the webpage suffered sizing related issues when a smaler screen turned sideways.
- -
- -
+ - has since been fixed using a new media querie for screens of 653px wide
 
 ## Deployment
+
+### Cloning & Forking
+#### Fork
+1. On GitHub.com, navigate to the [Savvietarmac/p1-star-views](https://github.com/Savvietarmac/p1-star-views) repository.
+2. In the top-right corner of the page, click Fork.
+3. By default, forks are named the same as their parent repositories. You can change the name of the 
+4. fork to distinguish it further.
+5. Add a description to your fork.
+6. Click Create fork.
+
+#### Clone
+1. Above the list of files click the button that says 'Code'.
+2. Copy the URL for the repository.
+3. Open Terminal. Change the directory to the location where you want the cloned directory.
+4. Type git clone, and then paste the URL
+5. Press Enter.
+
+### Local Deployment
+1. Sign up to [Gitpod](https://github.io/)
+2. Download the Gitpod browser extension.
+3. On GitHub.com, navigate to the [Savvietarmac/p1-star-views](https://github.com/Savvietarmac/p1-star-views) repository. 
+4. Above the list of files click the button that says 'Gitpod'.
+
+### Remote Deployment
+1. The site was deployed to Github pages. If you have forked/cloned the repository the steps to deploy are:
+2. On GitHub.com, navigate to your repository.
+3. Navigate to the settings tab.
+4. Click on the tab called 'pages' on the left hand side.
+5. From the source drop down list under the heading Build and deployment, select main.
+6. The page will hten provide the link to the website.
+
+The live link can be found here - [Star views](https://github.com/Savvietarmac/p1-star-views)
 
 
 ***
@@ -115,50 +180,24 @@ Using lighthouse to rate the accesability of the webpage
 
 ### Content
  - Used love running as an example for how to create a header and footer.
- - 
+ - Used to decide matching colors [CI Love Running](https://github.com/Code-Institute-Solutions/love-running-v3/tree/main/3.6-making-the-header-responsive)
+ - Used [Wc3schools](https://www.w3schools.com/howto/howto_css_fullscreen_video.asp) to make a video background in survey page
+ - used the LPSB-Learn-GCSE-CS README for help in structuring my own README [link](https://github.com/dlhamilton/LPSB-Learn-GCSE-CS)
 
 ### Media
- - Astronaut video made by Lisa Fotios taken from ![Pexels](https://www.pexels.com/)
- - Hero image made by Alex Andrews ![Pexels](https://www.pexels.com/)
- - Used ![Pixlr](https://pixlr.com/)  for sizing images
- - Favicons taken from ![Favicon](https://favicon.io/favicon-converter/)
+ #### Images
+ - Hero image made by Alex Andrews [Pexels](https://www.pexels.com/) pexels-alex-andrews-816608-edited.jpg
+ - Used [Pixlr](https://pixlr.com/) for sizing images
 
+#### Icons
+ - Favicons taken from [Favicon](https://favicon.io/favicon-converter/)
+ - Icons taken from [Fontawesome](https://fontawesome.com/)
 
-favicon from https://favicon.io/favicon-converter/ fav icon
-
-icons from fontawesome https://fontawesome.com/ in footer and in header top left
-
-color palat from site : http://colormind.io/bootstrap/ 
-
-gif for here https://giphy.com/gifs/drawing-sparkle-spark-nDmTGama5e9ZH6mlT3 from Charlotte, rocket ship embed from Francis Amisola of same website. NOt in use 
-
-Swirling galaxy: made by Samphan Korwong
-https://www.pexels.com/video/illustration-of-a-galaxy-6961824/
-
-used to downsize files: galaxy and hero image plus astronaughts
-https://www.freeconvert.com/
-
-inspired how to make a video into a background 
-https://www.w3schools.com/howto/howto_css_fullscreen_video.asp
-used on swirling galaxy
-
-National Geographic
-https://www.youtube.com/watch?v=2HoTK_Gqi2Q
-Sun 101 | National Geographic guide vid 1
-
-kurgezagt
-https://www.youtube.com/watch?v=3mnSDifDSxQ
-The Largest Star in the Universe – Size Comparison vid 2
-
-kurgezagt
-https://www.youtube.com/watch?v=udFxKZRyQt4
-neutron star
-
-kurgezagt
-https://www.youtube.com/watch?v=aeWyp2vXxqA&t=609s
-Black Hole Star – The Star That Shouldn't Exist vid 4
-
-
-The Secrets of the Universe
-https://www.youtube.com/watch?v=mIEcpOIfvuk
-Twin star vid 5
+ #### Videos
+ - Astronaut video made by Lisa Fotios taken from [Pexels](https://www.pexels.com/) 2-astronauts.mp4 
+ - Video of galaxy made by Samphan Korwong [Pexels](https://www.pexels.com/video/illustration-of-a-galaxy-6961824/) galaxy.mp4 
+ - First video in guide https://www.youtube.com/watch?v=2HoTK_Gqi2Q made by National Geographic
+ - Second video in guide https://www.youtube.com/watch?v=3mnSDifDSxQ made by Kurgezagt
+ - Third video in guide https://www.youtube.com/watch?v=udFxKZRyQt4 made by Kurgezagt
+ - Fourth video in guide https://www.youtube.com/watch?v=aeWyp2vXxqA&t=609s made by Kurgezagt
+ - Fifth in guide https://www.youtube.com/watch?v=mIEcpOIfvuk made by The Secrets of the Universe
