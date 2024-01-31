@@ -139,11 +139,25 @@ input {
     margin-left: 1vw;
 }
 
-#submit-input {
-    width: 5rem;
+#thank-you {
+    position: absolute;
+    width: 6rem;
+    height: 1.5rem;
+    color: white;
+    margin-left: 1vw;
+    margin-top: 1.2rem;
+    z-index: 4;
+}
+
+#submit {
+    position: relative;
+    width: 6rem;
+    height: 1.5rem;
     color: white;
     background-color: rgb(44, 43, 43);
-    margin-left: 1rem;
+    margin-left: 1vw;
+    margin-top: 1.2rem;
+    z-index: 3;
 }
 
 fieldset {

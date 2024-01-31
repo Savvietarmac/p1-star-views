@@ -45,11 +45,11 @@
             <fieldset>
                 <legend>How did you get intrested in stars?<br></legend>
                 <label for="first-name">name</label>
-                <input id="first-name" name="first-name" class="" type="text" required><br>
+                <input id="first-name" name="first-name" type="text" required><br>
                 <label for="last-name">Last name</label>
-                <input id="last-name" name="last-name" class="" type="text" required><br>
+                <input id="last-name" name="last-name" type="text" required><br>
                 <label for="email-address">Email Address</label>
-                <input id="email-address" name="email-address" class="" type="email" required><br>
+                <input id="email-address" name="email-address" type="email" required><br>
                 <label for="discovery-dlist">Reasons</label>
                 <input list="discovery" id="discovery-dlist" name="discovery" required><br>
                 <datalist id="discovery">
@@ -69,7 +69,8 @@
                 <textarea placeholder="Would you like to add something to the guide?"
                     name="feedback-guide" required></textarea>
             </fieldset>
-            <input id="submit-input" type="submit">
+            <!--Changed submit button to a link so it would take you to a thank you page instead ofo the form dump previous code <button id="submit" type="submit">submit</button>-->
+            <a id="thank-you" href="thank-you.html" aria-label="link to thank-you page"></a><button id="submit" type="submit">submit</button>
         </form>
         <video id="survey-video" src="assets/video/galaxy.mp4" autoplay muted loop aria-label="A backdrop of a swirling galaxy"></video>
     </main>
